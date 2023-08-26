@@ -13,4 +13,8 @@ export const router = createBrowserRouter([
         }
       ]
     },
+    {
+        path: "/*",
+        element: <div><img className="w-full max-h-fit" src='https://i.ibb.co/0fGkntw/images.jpg' alt=""/></div>,  
+    }
   ]);

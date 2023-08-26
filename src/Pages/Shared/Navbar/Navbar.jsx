@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
            <header className="p-4 bg-black text-white">
-	<div className="container flex justify-between h-16 mx-auto">
+	<div className="flex justify-between h-16 mx-auto">
         
         <div>
             

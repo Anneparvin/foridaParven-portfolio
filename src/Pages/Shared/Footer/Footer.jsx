@@ -49,7 +49,7 @@ const Footer = () => {
   <div>
    <img className='rounded-lg w-30' src={logo1} alt='pic'/>
     <p className="font-bold">
-      <button className='p-4 bg-slate-800 mt-3 mr-8 rounded-md'><AiFillPhone /></button>PHONE <br/>+8801 617727956</p> 
+      <button className='p-4 bg-slate-800 mt-3 mr-8 rounded-md'><AiFillPhone /></button>Phone <br/>+8801 617727956</p> 
     <p className="font-bold">
       <button className='p-4 bg-slate-800 mt-3 mr-8 rounded-md'><MdEmail /></button>Email <br/> foridaparven89@gmail.com</p> 
     <p className="font-bold">
@@ -57,7 +57,7 @@ const Footer = () => {
 
   </div> 
   <div>
-    {/* <h1 className='text-2xl'> <FcBusinesswoman />Social Site </h1> */}
+    
     <p className="font-bold">
       <button className='p-4 bg-slate-800 mt-3 mr-8 rounded-md w-30'><FcBusinesswoman /></button>Social Site</p> 
     <div className="grid grid-flow-col gap-4 mt-4">

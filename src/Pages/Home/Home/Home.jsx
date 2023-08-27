@@ -1,3 +1,4 @@
+import Contact from "../Contact/Contact";
 import FeaturedPro from "../FeaturedPro/FeaturedPro";
 import Logo from "../Logo/Logo";
 import Myself from "../Myself/Myself";
@@ -11,6 +12,7 @@ const Home = () => {
            <Logo></Logo>
            <Services></Services> 
            <FeaturedPro></FeaturedPro>
+           <Contact></Contact>
         </div>
     );
 };

@@ -1,14 +1,10 @@
 import React from 'react';
-import logo1 from '../../../assets/portfolio/luxurious lady.jpg';
-import { AiFillPhone } from 'react-icons/ai';
-import { MdEmail } from 'react-icons/md';
-import { FaAddressCard } from 'react-icons/fa';
-import { FcBusinesswoman } from 'react-icons/fc';
+
 
 const Footer = () => {
     return (
        <div>
-       <footer class="text-white bg-black">
+       <footer class="text-white bg-black hover:bg-red-500">
   <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
     <div class="text-center">
       <h2 class="text-3xl font-extrabold text-white sm:text-5xl">

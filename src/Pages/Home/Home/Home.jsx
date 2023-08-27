@@ -1,4 +1,5 @@
 import AboutMe from "../AboutMe/AboutMe";
+import Blog from "../Blog/Blog";
 import Contact from "../Contact/Contact";
 import FeaturedPro from "../FeaturedPro/FeaturedPro";
 import Logo from "../Logo/Logo";
@@ -14,6 +15,7 @@ const Home = () => {
            <Services></Services> 
            <FeaturedPro></FeaturedPro>
            <AboutMe></AboutMe>
+           <Blog></Blog>
            <Contact></Contact>
         </div>
     );

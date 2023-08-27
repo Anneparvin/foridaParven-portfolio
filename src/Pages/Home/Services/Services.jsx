@@ -37,11 +37,11 @@ const Services = () => {
           </li>
 
           <li class="p-1 leading-none">
-            <a href="#" class="text-xs font-medium text-gray-300"> GitHub </a>
+            <a href="https://github.com/Anneparvin" class="text-xs font-medium text-gray-300"> GitHub </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="#" class="text-xs font-medium text-gray-300">Website</a>
+            <a href="https://www.facebook.com/profile.php?id=100010559986295&viewas=100000686899395&privacy_source=timeline_gear_menu" class="text-xs font-medium text-gray-300">Facebook</a>
           </li>
         </ul>
       </div>

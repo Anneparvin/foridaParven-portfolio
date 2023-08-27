@@ -4,19 +4,19 @@ import map from '../../../assets/background/google map(2).jpg';
 import { AiFillPhone } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import { FaAddressCard } from 'react-icons/fa';
-
 // import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('gmail', 'template_awry2g5', e.target, 'sZ7hkSlbg8Od0Wklx')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
+         e.target.reset() 
       };
     return (
        <div>

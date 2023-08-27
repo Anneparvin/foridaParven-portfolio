@@ -5,7 +5,7 @@ import { BiFingerprint,BiIntersect,BiGridAlt } from 'react-icons/bi';
 
 const Services = () => {
     return (
-        <div className='grid grid-cols-2 gap-2 w-4/5 mx-auto'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-2 w-4/5 mx-auto'>
          <div>
          <h3 className='text-grey-300 text-ellipsis'>SERVICES</h3>
           <p className='text-4xl font-bold text-left'>
@@ -56,7 +56,7 @@ const Services = () => {
       >
         <strong class="font-medium text-white"><button className='p-4'><BiFingerprint/></button>WEB DESIGN</strong>
 
-        <p class="mt-1 text-xs font-medium text-gray-300">
+        <p class="mt-1 text-xs font-medium text-gray-300 hover:text-lime-600">
         Web designer expert is a professional with advanced knowledge, skills, and experience in the field of web design. They are highly proficient in creating visually appealing and functional websites that meet the needs of clients and users.  
         </p>
       </a>
@@ -69,7 +69,7 @@ const Services = () => {
       >
         <strong class="font-medium text-white"><button className='p-4'><BiGridAlt/></button>UI/UX DESIGNER</strong>
 
-        <p class="mt-1 text-xs font-medium text-gray-300">
+        <p class="mt-1 text-xs font-medium text-gray-300  hover:text-green-600">
         A UI/UX (User Interface/User Experience) designer is a specialized professional who focuses on creating digital experiences that are both visually appealing and user-friendly. UI/UX designers work to ensure that websites, apps, and other digital products are not only aesthetically pleasing but also intuitive, easy to navigate, and provide a positive user experience.
         </p>
       </a>
@@ -81,7 +81,7 @@ const Services = () => {
       >
         <strong class="font-medium text-white"><button className='p-4'><BiIntersect/></button>USER RESEARCH</strong>
 
-        <p class="mt-1 text-xs font-medium text-gray-300">
+        <p class="mt-1 text-xs font-medium text-gray-300  hover:text-lime-600">
         User research is a critical component of the design process that involves studying and understanding the needs, behaviors, preferences, and motivations of users to create products and experiences that cater to their requirements. It provides designers and developers with valuable insights that help guide the design decisions and improve the user experience. 
         </p>
       </a>
@@ -89,6 +89,7 @@ const Services = () => {
   </ul>
 </article>
 {/* 2 */}
+
 
          </div>
         </div>

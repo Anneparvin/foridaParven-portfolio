@@ -5,7 +5,7 @@ import { MdStyle,MdLineStyle } from 'react-icons/md';
 
 const Logo = () => {
     return (
-        <div className='grid grid-cols-5 gap-2 justify-around w-4/5 mx-auto mt-6'>
+        <div className='grid grid-cols-1 lg:grid-cols-5 gap-2 justify-around w-4/5 mx-auto mt-6 p-1 lg:p-4'>
           <p className='p-4 font-bold text-2xl font-serif'><button className='p-4'><SiStylelint/></button>Logo|psum</p>  
           <p className='p-4 font-bold text-2xl font-serif'><button className='p-4'><SiStyleshare/></button>Logo|psum</p>  
           <p className='p-4 font-bold text-2xl font-serif'><button className='p-4'><BsBorderStyle/></button>Logo|psum</p>  

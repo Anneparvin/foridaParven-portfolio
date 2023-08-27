@@ -67,6 +67,8 @@ const Footer = () => {
     </div>
   </div>
 </div>
+{/* another part */}
+
 
         </div>
     );

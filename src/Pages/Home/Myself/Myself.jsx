@@ -30,8 +30,8 @@ const Myself = () => {
           </button>
           
 
-            <button className='p-3 font-serif bg-black rounded-lg'>Explore My Portfolio<button className='p-3'><BsFillArrowRightCircleFill/></button></button>
-            <button className='p-3 font-serif bg-black rounded-lg m-0 lg:ml-8'>Connect With Me<button className='p-3'><BsFillArrowRightCircleFill/></button></button>
+            <button className='p-3 click font-serif bg-black rounded-lg'>Explore My Portfolio<button className='p-3'><BsFillArrowRightCircleFill/></button></button>
+            <button className='p-3 click font-serif bg-black rounded-lg m-0 lg:ml-8'>Connect With Me<button className='p-3'><BsFillArrowRightCircleFill/></button></button>
             </div> 
             <div>
             <img className='w-96' src={imageMine} alt="" />

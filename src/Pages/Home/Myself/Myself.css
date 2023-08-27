@@ -19,12 +19,14 @@
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
-    @keyframes back {
-        100%{ background-position:2000px 0;
-        }
+   
         
     }
- }
+ 
  .flex-container{
     display: flex;
  }
+ .click:hover {
+   transform: scale(0.6);
+   transition-duration: 0.5s;
+}

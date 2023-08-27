@@ -73,7 +73,7 @@ const Blog = () => {
     <img
       alt="Developer"
       src={card2}
-      class="h-16 w-2/5 mx-autorounded-full object-cover"
+      class="h-16 w-2/5 mx-auto rounded-full object-cover"
     />
 
     <div>
@@ -131,7 +131,7 @@ const Blog = () => {
     <img
       alt="Developer"
       src={card3}
-      class="h-16 w-2/5 mx-autorounded-full object-cover"
+      class="h-16 w-2/5 mx-auto rounded-full object-cover"
     />
 
     <div>

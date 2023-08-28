@@ -23,15 +23,15 @@ const Blog = () => {
       <div class="flow-root">
         <ul class="-m-1 flex flex-wrap">
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300"> Twitter </a>
+            <a href="" class="text-xs font-medium text-gray-300"> Twitter </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300"> GitHub </a>
+            <a href="" class="text-xs font-medium text-gray-300"> GitHub </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300">Website</a>
+            <a href="" class="text-xs font-medium text-gray-300">Website</a>
           </li>
         </ul>
       </div>
@@ -41,7 +41,7 @@ const Blog = () => {
   <ul class="mt-4 space-y-2">
     <li>
       <a
-        href="/"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white">Project A</strong>
@@ -55,7 +55,7 @@ const Blog = () => {
 
     <li>
       <a
-        href="/"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white">Project B</strong>
@@ -82,15 +82,15 @@ const Blog = () => {
       <div class="flow-root">
         <ul class="-m-1 flex flex-wrap">
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300"> Twitter </a>
+            <a href="" class="text-xs font-medium text-gray-300"> Twitter </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300"> GitHub </a>
+            <a href="" class="text-xs font-medium text-gray-300"> GitHub </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300">Website</a>
+            <a href="" class="text-xs font-medium text-gray-300">Website</a>
           </li>
         </ul>
       </div>
@@ -100,7 +100,7 @@ const Blog = () => {
   <ul class="mt-4 space-y-2">
     <li>
       <a
-        href="/"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white">Project A</strong>
@@ -114,7 +114,7 @@ const Blog = () => {
 
     <li>
       <a
-        href="/"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white">Project B</strong>
@@ -140,15 +140,15 @@ const Blog = () => {
       <div class="flow-root">
         <ul class="-m-1 flex flex-wrap">
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300"> Twitter </a>
+            <a href="" class="text-xs font-medium text-gray-300"> Twitter </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300"> GitHub </a>
+            <a href="" class="text-xs font-medium text-gray-300"> GitHub </a>
           </li>
 
           <li class="p-1 leading-none">
-            <a href="/" class="text-xs font-medium text-gray-300">Website</a>
+            <a href="" class="text-xs font-medium text-gray-300">Website</a>
           </li>
         </ul>
       </div>
@@ -158,7 +158,7 @@ const Blog = () => {
   <ul class="mt-4 space-y-2">
     <li>
       <a
-        href="/"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white">Project A</strong>
@@ -172,7 +172,7 @@ const Blog = () => {
 
     <li>
       <a
-        href="/"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white">Project B</strong>

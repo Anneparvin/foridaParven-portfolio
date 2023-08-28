@@ -4,20 +4,25 @@ import map from '../../../assets/background/google map(2).jpg';
 import { AiFillPhone } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import { FaAddressCard } from 'react-icons/fa';
-// import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('gmail', 'template_awry2g5', e.target, 'sZ7hkSlbg8Od0Wklx')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
-              console.log(error.text);
-          });
-         e.target.reset() 
-      };
+  
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_741kzoa', 'template_y1uqg9p', form.current, 'sZ7hkSlbg8Od0Wklx')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
     return (
        <div>
         <h1 className='text-4xl font-bold text-center mt-16 mb-10'>Contact Information</h1>
@@ -32,33 +37,33 @@ const Contact = () => {
              <p className='text-left mt-6'>Get in touch with us for any kind of help. We are here to give you the best and also here to help you to find your projects.</p>
      
          </div>
-         <form onSubmit={sendEmail} className="space-y-6">
+         
+         <form ref={form} onSubmit={sendEmail} className='space-y-12'>
          <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
-				<div className="col-span-full sm:col-span-3">
+				<div className="col-span-full">
 					<label for="firstname" className="text-sm">First name</label>
-					<input id="firstname" type="text" placeholder="First name" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900" />
+					<input id="firstName" type="text" placeholder="First name" name="firstName" className="w-full rounded-md text-black" />
 				</div>
-				<div className="col-span-full sm:col-span-3">
-					<label for="Subject" className="text-sm">Subject</label>
-					<input id="Subject" type="text" placeholder="Subject name" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900" />
-				</div>
+				
 				<div className="col-span-full">
 					<label for="email" className="text-sm">Email</label>
-					<input id="email" type="email" placeholder="Email" rows="3" className="w-full rounded-md focus:ring focus:ri focus:ri dark:border-gray-700 dark:text-gray-900" />
+					<input id="email" type="email" placeholder="Email" name="email" rows="3" className="w-full rounded-md text-black" />
 				</div>
 				<div className="col-span-full">
 					<label for="message" className="text-sm">Message</label>
                     <textarea
                         id="message"
-                        class="mt-2 w-full rounded-lg border-gray-200 align-top shadow-sm sm:text-sm"
+                        className="mt-2 w-full rounded-lg border-gray-200 text-black align-top shadow-sm sm:text-sm"
                         rows="4"
+                        name="message" 
                         placeholder="Enter your message..."
                     ></textarea>
 				</div>
 				</div>
              <div className="space-y-2">
                  <div>
-                     <button type="button" className="w-full px-8 py-3 font-semibold rounded-md bg-secondary">Send Message</button>
+                     {/* <button type="button" value="Send"  className="w-full px-8 py-3 font-semibold rounded-md bg-secondary">Send Message</button> */}
+                     <input type="submit" value="Send" className="w-full px-8 py-3 font-semibold rounded-md bg-secondary"/>
                  </div>
                  
              </div>

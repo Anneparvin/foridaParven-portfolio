@@ -1,9 +1,8 @@
-
-# Project's Title: Welcome to Musical Toy Website
+# Project's Title: Welcome to Forida Parven Portfolio Website
 This Projects is developed by (Forida Parven Anne)
 
 # Project Description: 
-This is a Musical toy websie.there are many toys like puzzels game, board games, music.so many toys are here.
+This is a my  websie.there are many section ,& i have completed all the requirement
 
 
 # Technology Used on this projects
@@ -23,11 +22,8 @@ This is a Musical toy websie.there are many toys like puzzels game, board games,
 
 
 ## Live Site Link
-https://toymaster-1eeeb.web.app
+https://willowy-queijadas-f43e8c.netlify.app/
 
-## Vercel Link
- https://musical-toy-server.vercel.app
  
 ## Github Link
-Client Side: https://github.com/Anneparvin/Musical-toy-clientSide
-server side: https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-Anneparvin 
+Client Side: https://github.com/Anneparvin/foridaParven-portfolio

@@ -6,8 +6,8 @@ import card3 from '../../../assets/website/download.jpg'
 
 const Blog = () => {
     return (
-        <div>
-         <h1 className='text-4xl font-bold mt-16 mb-10 text-center'>Blog</h1>
+        <div className='bg-gradient-to-r from-yellow-100 to-yellow-700 lg:p-8'>
+         <h1 className='text-4xl font-bold mb-10 text-center underline mt-4 mb-8'>Blog</h1>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 w-4/5 mx-auto'>
         <article class="rounded-xl border border-gray-700 bg-gray-800 p-4">
   <div class="flex items-center gap-4">

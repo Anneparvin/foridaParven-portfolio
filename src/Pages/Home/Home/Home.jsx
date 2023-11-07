@@ -11,11 +11,9 @@ const Home = () => {
     return (
         <div>
            <Myself></Myself>
-           <Logo></Logo>
-           <Services></Services> 
-           <FeaturedPro></FeaturedPro>
            <AboutMe></AboutMe>
            <Blog></Blog>
+           <FeaturedPro></FeaturedPro>
            <Contact></Contact>
         </div>
     );

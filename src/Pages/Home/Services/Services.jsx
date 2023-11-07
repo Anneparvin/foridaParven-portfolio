@@ -33,7 +33,7 @@ const Services = () => {
       <div class="flow-root">
         <ul class="-m-1 flex flex-wrap">
           <li class="p-1 leading-none">
-            <a href="#" class="text-xs font-medium text-gray-300"> Twitter </a>
+            <a href="" class="text-xs font-medium text-gray-300"> Twitter </a>
           </li>
 
           <li class="p-1 leading-none">
@@ -49,9 +49,9 @@ const Services = () => {
   </div>
 
   <ul class="mt-4 space-y-2">
-    <li>
+    <li className='bg-black'>
       <a
-        href="#"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white"><button className='p-4'><BiFingerprint/></button>WEB DESIGN</strong>
@@ -62,9 +62,9 @@ const Services = () => {
       </a>
     </li>
 
-    <li>
+    <li className='bg-black'>
       <a
-        href="#"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white"><button className='p-4'><BiGridAlt/></button>UI/UX DESIGNER</strong>
@@ -74,9 +74,9 @@ const Services = () => {
         </p>
       </a>
     </li>
-    <li>
+    <li className='bg-black'>
       <a
-        href="#"
+        href=""
         class="block h-full rounded-lg border border-gray-700 p-4 hover:border-pink-600"
       >
         <strong class="font-medium text-white"><button className='p-4'><BiIntersect/></button>USER RESEARCH</strong>

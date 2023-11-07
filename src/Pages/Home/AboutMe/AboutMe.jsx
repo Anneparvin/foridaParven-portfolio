@@ -1,35 +1,35 @@
 import React from 'react';
-import './AboutMe.css';
+// import './AboutMe.css';
 import pic from '../../../assets/background/anne-removebg-preview__1_-removebg-preview.png';
 import { BsBoxArrowInRight } from 'react-icons/bs';
 
 
 const AboutMe = () => {
     return (
-        <div>
-            <h1 className='text-4xl font-bold mt-16 mb-10 text-center'>About Me</h1>
-        <div className='myPicture flex lg:flex-row flex-col-reverse gap-4 mt-10'>
-            <div className='flex-1 w-32'>
-              <img className='w-4/5' src={pic} alt='pic'/>  
+        <div className='bg-amber-100 text-yellow-900'>
+            <h1 className='text-4xl font-bold text-center underline'>About Me</h1>
+        <div className='myPicture flex lg:flex-row flex-col-reverse gap-4 items-center lg:p-4 p-6'>
+            <div className='flex-1 lg:w-32 w-full'>
+              <img className='lg:w-4/5 w-full lg:ml-0 ml-4' src={pic} alt='pic'/>  
             </div>
-            <div className='about flex-1 w-64'>
-            <h2 className='text-sm font-serif text-white mt-44'>ABOUT - Forida Parven</h2>
-            <p className='text-4xl font-serif text-white mt-4'>Get a website that will <br/> make a lasting impression <br/>  on your audience!!!</p>
-              <p className='text-sm font-serif text-white mt-8'>
+            <div className='about flex-1 lg:w-64 w-full'>
+            <h2 className='text-sm font-serif'>ABOUT - Forida Parven</h2>
+            <p className='text-4xl font-serif mt-4'>Get a website that will <br/> make a lasting impression <br/>  on your audience!!!</p>
+              <p className='text-sm font-serif mt-8'>
             As a web designer, I am a creative professional who specialize in designing and creating visually appealing and functional websites. My role involves combining technical skills with artistic abilities to craft digital interfaces that engage users, communicate messages effectively, and provide seamless user experiences. 
             </p>
-            <ul className='text-sm font-serif text-white mt-8'>
+            <ul className='text-sm font-serif mt-8'>
                 <p>Role and Responsibilities:</p>
                 <li><button className='mr-6'><BsBoxArrowInRight/></button>Responsive Design</li>
                 <li><button className='mr-6'><BsBoxArrowInRight/></button>User Experience (UX) Design</li>
                 <li><button className='mr-6'><BsBoxArrowInRight/></button>Visual Design</li>
                 <li><button className='mr-6'><BsBoxArrowInRight/></button>Coding Basics</li>
             </ul>
-            <div>
+            <div className='bg-gradient-to-r from-yellow-400 to-yellow-800 lg:p-3 p-1 rounded-md mt-4 shadow-lg shadow-lime-600/100 hover:shadow-lime-500/60'>
             <ul class="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-left">
         <li>
           <a
-            href="https://www.facebook.com/profile.php?id=100010559986295&viewas=100000686899395&privacy_source=timeline_gear_menu"
+            href="https://www.facebook.com/profile.php?id=100010559986295"
             rel="noreferrer"
             target="_blank"
             class="text-white transition hover:opacity-75"
@@ -53,7 +53,7 @@ const AboutMe = () => {
 
         <li>
           <a
-            href="/"
+            href="https://www.instagram.com/anneparvin1/"
             rel="noreferrer"
             target="_blank"
             class="text-white transition hover:opacity-75"
@@ -77,7 +77,7 @@ const AboutMe = () => {
 
         <li>
           <a
-            href="/"
+            href="https://twitter.com/AnneParven89"
             rel="noreferrer"
             target="_blank"
             class="text-white transition hover:opacity-75"
@@ -150,16 +150,12 @@ const AboutMe = () => {
             <span class="sr-only">Linkedin</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-8 w-10"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
-              <path
-                fill-rule="evenodd"
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                clip-rule="evenodd"
-              />
+             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
             </svg>
           </a>
         </li>

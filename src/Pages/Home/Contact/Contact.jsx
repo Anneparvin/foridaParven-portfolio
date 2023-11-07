@@ -24,9 +24,9 @@ const Contact = () => {
   };
 
     return (
-       <div>
-        <h1 className='text-4xl font-bold text-center mt-16 mb-10'>Contact Information</h1>
-         <div className='flex flex-col lg:flex-row-reverse p-10 bg-black text-white mt-16'>
+       <div className='bg-lime-100'>
+        <h1 className='text-4xl font-bold text-center mb-1 underline'>Contact Information</h1>
+         <div className='flex flex-col lg:flex-row-reverse p-10 text-yellow-900 mt-16'>
         <div className='flex-1 w-64'>
           {/* form side */}
         
@@ -63,7 +63,7 @@ const Contact = () => {
              <div className="space-y-2">
                  <div>
                      {/* <button type="button" value="Send"  className="w-full px-8 py-3 font-semibold rounded-md bg-secondary">Send Message</button> */}
-                     <input type="submit" value="Send" className="w-full px-8 py-3 font-semibold rounded-md bg-secondary"/>
+                     <input type="submit" value="Send" className="w-full px-8 py-3 font-semibold rounded-md bg-lime-700 text-yellow-50 shadow shadow-lg shadow-yellow-600/100 hover:shadow-yellow-500/60"/>
                  </div>
                  
              </div>

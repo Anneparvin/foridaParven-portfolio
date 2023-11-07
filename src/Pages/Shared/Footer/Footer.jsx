@@ -4,60 +4,60 @@ import React from 'react';
 const Footer = () => {
     return (
        <div>
-       <footer class="text-white bg-black hover:bg-red-500">
-  <div class="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
-    <div class="text-center">
-      <h2 class="text-3xl font-extrabold text-white sm:text-5xl">
+       <footer className="text-yellow-100 bg-gradient-to-r from-yellow-400 to-yellow-800">
+  <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+    <div className="text-center">
+      <h2 className="text-3xl font-extrabold text-white sm:text-5xl">
         Customise My Portfolio
       </h2>
 
-      <p class="mx-auto mt-4 max-w-sm text-white">
+      <p className="mx-auto mt-4 max-w-sm text-white">
       My profile should align with my comfort level and the purpose of the profile. Always consider my privacy and security while sharing information online.
       </p>
 
       <a
         href="#"
-        class="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+        className="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-lime-900 hover:text-white focus:outline-none active:bg-lime-500 shadow-lg shadow-red-600/100 hover:shadow-lime-500/60"
       >
         Get Started
       </a>
     </div>
 
     <div
-      class="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24"
+      className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24"
     >
-      <ul class="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
+      <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
         <li>
-          <a href="#" class="text-white transition hover:opacity-75">
+          <a href="#" className="text-white transition hover:opacity-75">
             Terms & Conditions
           </a>
         </li>
 
         <li>
-          <a href="#" class="text-white transition hover:opacity-75">
+          <a href="#" className="text-white transition hover:opacity-75">
             Privacy Policy
           </a>
         </li>
 
         <li>
-          <a href="#" class="text-white transition hover:opacity-75">
+          <a href="#" className="text-white transition hover:opacity-75">
             Cookies
           </a>
         </li>
       </ul>
 
-      <ul class="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
+      <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
         <li>
           <a
-            href="https://www.facebook.com/profile.php?id=100010559986295&viewas=100000686899395&privacy_source=timeline_gear_menu"
+            href="https://www.facebook.com/profile.php?id=100010559986295"
             rel="noreferrer"
             target="_blank"
-            class="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
-            <span class="sr-only">Facebook</span>
+            <span className="sr-only">Facebook</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -73,15 +73,15 @@ const Footer = () => {
 
         <li>
           <a
-            href="/"
+            href="https://www.instagram.com/anneparvin1/"
             rel="noreferrer"
             target="_blank"
-            class="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
-            <span class="sr-only">Instagram</span>
+            <span className="sr-only">Instagram</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -97,15 +97,15 @@ const Footer = () => {
 
         <li>
           <a
-            href="/"
+            href="https://twitter.com/AnneParven89"
             rel="noreferrer"
             target="_blank"
-            class="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
-            <span class="sr-only">Twitter</span>
+            <span className="sr-only">Twitter</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -122,12 +122,12 @@ const Footer = () => {
             href="https://github.com/Anneparvin"
             rel="noreferrer"
             target="_blank"
-            class="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
-            <span class="sr-only">GitHub</span>
+            <span className="sr-only">GitHub</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -146,12 +146,12 @@ const Footer = () => {
             href="https://www.youtube.com/@faridaparvin589"
             rel="noreferrer"
             target="_blank"
-            class="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
-            <span class="sr-only">YouTube</span>
+            <span className="sr-only">YouTube</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -162,24 +162,20 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="http://www.linkedin.com/in/forida-parven"
+            href="https://www.linkedin.com/in/forida-parven-anne/"
             rel="noreferrer"
             target="_blank"
-            class="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75"
           >
-            <span class="sr-only">Linkedin</span>
+            <span className="sr-only">Linkedin</span>
 
             <svg
-              class="h-6 w-6"
+              className="h-8 w-10"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
             >
-              <path
-                fill-rule="evenodd"
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                clip-rule="evenodd"
-              />
+             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
             </svg>
           </a>
         </li>

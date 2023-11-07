@@ -15,7 +15,8 @@
  .text-box h1{
     color: transparent;
     -webkit-text-stroke: 1px #fff ;
-    background: url(../../../assets/portfolio/pexels-photo-1191710.jpeg);
+    /* background: url(../../../assets/portfolio/pexels-photo-1191710.jpeg); */
+    background-color: gray;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
